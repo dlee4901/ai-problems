@@ -1,4 +1,4 @@
-#Constraint Satisifaction Problem (CSP)
+# Constraint Satisifaction Problem (CSP)
 
 Each input is split into two files: the .var files contain the set of variables and their domains, and the .con files contain the set of constraints, specifically comparison between two variables (>, <, =).
 
@@ -6,7 +6,7 @@ The program solves CSPs using backtracking search with an option for forward che
 
 Run the problem using: ./csp <filename> <fc/none> (example: ./csp test1 fc)
 
-#Resolution Method
+# Resolution Method
 
 Each input file contains clauses in conjunctive normal form, with each line containing a single clause. The last line contains the clause to test, and all other lines form the knowledge base.
 
